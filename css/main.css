@@ -26,6 +26,8 @@
 	font-size: 50px;
 	color: #FFCBD2;
 	margin: 10px auto;
+	position: relative;
+	top: -200px;
 }
 .navbar {
 	background-color: #545658;
@@ -51,6 +53,18 @@
 	border-left: 2px solid #FFCBD2;
 	font-size: 21px;
 
+}
+.carousel h1 {
+	font-size: 60px;
+}
+#text-1 {
+	color : #9C27B0;
+}
+#text-2 {
+	color : #77FDFC;
+}
+#text-3 {
+	color : #A5947B;
 }
 .carousel img {
 	width: 100%;
@@ -110,6 +124,13 @@ figure .three {
 }
 
 /*about*/
+.about-text {
+	border-right: 3px solid #C1001F;
+	padding-right: 30px;
+}
+#about h1 {
+	color: #C1001F;
+}
 #about p {
 	font-size: 20px;
 }
@@ -119,6 +140,9 @@ figure .three {
 #about p:nth-child(6), 
 #about p:nth-child(10) {
 	font-weight: bold;
+}
+#about p:nth-child(10) {
+	color: #C1001F;
 }
 
 
@@ -188,3 +212,65 @@ figure .three {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+
+.gal-section {
+	background-color: #6D6F70;
+	color: white;
+	padding: 50px;
+}
+.gallery {
+	text-align: center;
+}
+.wraper {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+.nav-arrow-left i, 
+.nav-arrow-right i {
+	color: #6D6F70;
+	font-size: 50px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.nav-arrow-left i:hover, 
+.nav-arrow-right i:hover {
+	color: #FFCBD2;
+	font-size: 55px;
+}
+.gallery img {
+	width: 100%;
+	
+}
+#item-0 {
+	position: relative;
+	top: -450px;
+	left: 600px;
+}
+#item-1 {
+	position: relative;
+	top: -450px;
+	left: 400px;
+}
+#item-2 {
+	position: relative;
+	top: -450px;
+	left: 0;
+}
+#item-3 {
+	position: relative;
+	top: -450px;
+	left: -400px;
+}
+#item-4 {
+	position: relative;
+	top: -450px;
+	left:-600px;
+}
+/*
+.gal-item {
+	background: url(../img/gal-1.jpg);
+}*/
