@@ -32,7 +32,10 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
 		<script type="text/javascript">
-			
+			$(document).ready(function() {
+				$('.gal-item').animate({ top: 0, left: 0 }, 800, 'easeOutBounce');
+				$('.logo i').animate({top: 0, left: 0 }, 900, 'easeOutBounce')
+			});
 		</script>
 	</head>
 	<body>
