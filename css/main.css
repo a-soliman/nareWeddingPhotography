@@ -54,6 +54,10 @@
 	font-size: 21px;
 
 }
+.navbar ul li a.active {
+	color: #FFCBD2;
+	font-size: 21px;
+}
 .carousel h1 {
 	font-size: 60px;
 }
@@ -228,6 +232,7 @@ figure .three {
 	padding-bottom: 20px;
 	border-radius: 50px;
 	overflow: hidden;
+	height: 380px;
 }
 .nav-arrow-left i, 
 .nav-arrow-right i {
