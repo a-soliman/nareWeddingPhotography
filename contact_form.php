@@ -3,7 +3,7 @@
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $message = $_POST['message'];
-    $to = 'your-email@youraddress.com'; //<-- Put your E-Mail address here 
+    $to = 'nareyepremyan25@gmail.com'; //<-- Put your E-Mail address here 
     $subject = 'New Message from website';
 
     $body = "From: $name <br> E-Mail: $email <br> Phone: $phone <br> Message: <br> $message";
