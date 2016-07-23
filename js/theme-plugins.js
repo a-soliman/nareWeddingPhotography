@@ -2,7 +2,7 @@
 //========== 1. Parallax Plugin ==========//
 //========================================//
 /**
- * Author: Heather Corey
+ * Author: Ahmed Soliman
  * jQuery Simple Parallax Plugin
  *
  */
