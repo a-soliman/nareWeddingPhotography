@@ -198,14 +198,14 @@ $(function() {
   ===============================================*/
   var markerIcon = "images/marker.png";
   // Map Initial Location
-  var initLatitude = -37.812154; // <- Latitude here
-  var initLongitude = 144.954619; // <- Longitude here
+  var initLatitude = 33.7866; // <- Latitude here
+  var initLongitude = -118.2987; // <- Longitude here
   
   var map = new GMaps({
     el: '#map-canvas',
     lat: initLatitude,
     lng: initLongitude,
-    zoom: 16,
+    zoom: 13,
     scrollwheel: false
   });
   map.addMarker({
