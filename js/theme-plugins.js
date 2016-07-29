@@ -2157,7 +2157,7 @@ if (typeof Object.create !== "function") {
  */
 
 if (!(typeof window.google === 'object' && window.google.maps)) {
-  throw 'Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.'
+  throw 'Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?key=AIzaSyAFuuLuN6EyFy450T2xDCpaEZ_hhSNNUzY&callback=initMapsensor=true.'
 }
 
 var extend_object = function(obj, new_obj) {
