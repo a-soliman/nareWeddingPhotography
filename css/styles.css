@@ -1,9 +1,5 @@
-/*------------------------------------------------
-*	Template name: Luna
-*	Version      : 1.0
-*	Author       : FlaTheme
-*	Author URL   : http://themeforest.net/user/flatheme
-*
+/*
+
 *	Table of contents:
 *	1. 	Body/Main
 *	2.	Toggle Menu
@@ -672,6 +668,29 @@ input, textarea {
 	font-size: 20px;
 	letter-spacing: 1.5px;
 }
+
+/*-------------------------------------------------
+	Blog
+-------------------------------------------------*/
+#blog {
+
+}
+#blog .blog-background {
+	background: url(../images/blog-bg.jpg) no-repeat top center fixed;
+}
+#blog .white-layer {
+	padding: 160px 0;
+}
+#blog .blog-text {
+	text-align: center;
+}
+#blog p {
+	font-size: 27px;
+}
+#blog a {
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+} 
 
 /*-------------------------------------------------
 	10. Testimonial
