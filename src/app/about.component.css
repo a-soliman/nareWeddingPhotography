@@ -1,0 +1,63 @@
+/*-------------------------------------------------
+	4. About Section
+-------------------------------------------------*/
+.about-background {
+	padding: 100px 0;
+}
+
+.about-image, 
+.contact-info, 
+.about-grey-content {
+	padding: 10px;
+}
+
+.about-grey-content ul {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.contact-info ul li {
+	padding: 14px 0;
+	border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.contact-info ul li h4 {
+	display: inline-block;
+	margin-bottom: 5px;
+	padding-right: 5px;
+}
+
+.contact-info ul li:first-child {
+	padding-top: 0;
+}
+
+.contact-info ul li:last-child {
+	border: none;
+	padding-bottom: 0;
+}
+
+.contact-info ul li i {
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+.about-grey-content div {
+	position: relative;
+	height: 100%;
+	padding: 30px;
+}
+
+.about-grey-content h3 {
+	font-size: 24px;
+	letter-spacing: 1.5px;
+}
+
+.about-grey-content span {
+	display: block;
+	margin-bottom: 10px;
+	color: rgb(160, 160, 160);
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
