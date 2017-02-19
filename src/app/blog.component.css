@@ -1,0 +1,544 @@
+/*-------------------------------------------------
+	Blog
+-------------------------------------------------*/
+#blog {
+
+}
+#blog .blog-background {
+	background: url(../images/blog-bg.jpg) no-repeat top center fixed;
+}
+#blog .white-layer {
+	padding: 160px 0;
+}
+#blog .blog-text {
+	text-align: center;
+}
+#blog p {
+	font-size: 27px;
+}
+#blog a {
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+} 
+
+
+/*-------------------------------------------------
+	13. Blog Page
+-------------------------------------------------*/
+.blog-title {
+	background: url("../images/bg-img.jpg") no-repeat top center fixed;
+	text-align: center;
+}
+
+.blog-title .white-layer {
+	padding: 100px 0;
+}
+
+.blog-title h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.blog-title .btn-style, 
+.blog-title .btn-style:hover, 
+.blog-title .btn-style:focus {
+	background: #fff;
+	color: rgb(30, 30, 30);
+}
+
+.blog-page-background {
+	padding: 100px 0;
+}
+
+.blog-page-content, 
+.blog-sidebar {
+	padding: 0;
+}
+
+.blog-page-post {
+	margin-bottom: 100px;
+}
+
+.blog-page-post:last-child {
+	margin: 0;
+}
+
+.post-info {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.post-info h4 a {
+	color: rgb(30, 30, 30);
+}
+
+.post-info h4 a:hover {
+	color: rgb(30, 30, 30);
+	text-decoration: underline;
+}
+
+.post-info h3 {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto 10px;
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+
+.post-info h3 a, 
+.post-info h3 a:hover {
+	color: rgb(30, 30, 30);
+}
+
+.post-info h3 a:hover::before {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 0;
+	background: rgb(30, 30, 30);
+	width: 100%;
+	height: 1px;
+}
+
+.post-info ul li {
+	display: inline-block;
+	font-style: italic;
+}
+
+.post-info ul li::after {
+	content: '-';
+}
+
+.post-info ul li:last-child::after {
+	content: '';
+}
+
+.post-info ul li a {
+	color: rgb(160, 160, 160);
+}
+
+.post-additional-info {
+	border: 1px solid rgb(220, 220, 220);
+	margin-top: 30px;
+	text-align: center;
+}
+
+.share li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.share li:last-child {
+	margin: 0;
+}
+
+.share li a {
+	color: rgb(30, 30, 30);
+}
+
+.read-more {
+	color: rgb(30, 30, 30);
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.read-more i {
+	padding-left: 10px;
+	font-size: 13px;
+}
+
+.share a:hover, 
+.read-more:hover {
+	color: rgb(80, 80, 80);
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	opacity: 1;
+	background: #fff;
+	width: 42px;
+	height: 42px;
+	margin: 0;
+	padding: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	color: rgb(30, 30, 30);
+	font-size: 16px;
+	line-height: 42px;
+	text-align: center;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	margin-left: 10px;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+	opacity: 1;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.blog-page-post .owl-theme .owl-controls {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	margin: 0;
+}
+
+/* Sidebar */
+.sidebar-box {
+	background: rgb(245, 245, 245);
+	margin-bottom: 30px;
+	padding: 30px;
+}
+
+.sidebar-box:last-child {
+	margin: 0;
+}
+
+.sidebar-box h4 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/* Categories */
+.categories {
+	margin: -15px 0;
+}
+
+.categories li {
+	float: left;
+	width: 50%;
+}
+
+.categories li:nth-child(odd) {
+	padding-right: 15px;
+}
+
+.categories li:nth-child(even) {
+	padding-left: 15px;
+}
+
+.categories a {
+	display: block;
+	padding: 15px 0;
+	border-bottom: 1px solid rgb(220, 220, 220);
+	color: rgb(30, 30, 30);
+}
+
+.categories li:last-child a {
+	border: none;
+}
+
+.categories a span {
+	float: right;
+	font-weight: 700;
+}
+
+.categories a span, 
+.categories a:hover {
+	color: rgb(160, 160, 160);
+}
+
+/* Tag Cloud */
+.tag-cloud {
+	margin: -5px 0;
+}
+
+.tag-cloud li {
+	display: inline-block;
+	margin: 5px 5px 5px 0;
+	font-style: italic;
+}
+
+.tag-cloud li a {
+	color: rgb(100, 100, 100);
+}
+
+.tag-cloud li a::before {
+	content: '#';
+}
+
+.tag-cloud li a:hover {
+	color: rgb(100, 100, 100);
+	text-decoration: underline;
+}
+
+/* Popular Posts */
+.post-box {
+	margin-bottom: 20px;
+}
+
+.post-box:last-child {
+	margin: 0;
+}
+
+.post-box img {
+	float: left;
+	width: 100px;
+}
+
+.post-box div {
+	min-height: 63px; 
+	padding-left: 120px;
+}
+
+.post-box div p a {
+	color: rgb(30, 30, 30);
+}
+
+.post-box div p a:hover {
+	text-decoration: underline;
+}
+
+.post-box div span {
+	color: rgb(160, 160, 160);
+	font-size: 12px;
+	font-style: italic;
+}
+
+/* Follow me */
+.follow-me {
+	text-align: center;
+}
+
+.follow-me li {
+	display: inline-block;
+	margin-right: 8px;
+	text-align: center;
+}
+
+.follow-me li:last-child {
+	margin: 0;
+}
+
+.follow-me li a {
+	display: block;
+	background: rgb(30, 30, 30);
+	width: 42px;
+	height: 42px;
+	color: #fff;
+	line-height: 42px;
+}
+
+.follow-me li a:hover {
+	background: rgb(50, 50, 50);
+}
+
+/* Blog Single Page */
+.post {
+	margin: 30px 0;
+}
+
+blockquote {
+	margin: 10px 0;
+	border-left: 2px solid rgb(220, 220, 220);
+	color: rgb(160, 160, 160);
+	font-size: 14px;
+	font-style: italic;
+	line-height: 22px;
+}
+
+.tags {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.tags li {
+	position: relative;
+	display: inline-block;
+	margin-right: 5px;
+	color: rgb(160, 160, 160);
+}
+
+.tags li a {
+	color: rgb(160, 160, 160);
+	font-style: italic;
+}
+
+.tags li a::before {
+	content: '#';
+}
+
+.tags li a:hover {
+	text-decoration: underline;
+}
+
+.post-date li {
+	display: inline-block;
+}
+
+.post-date li::after {
+	content: '-';
+	color: rgb(30, 30, 30);
+}
+
+.post-date li:last-child::after {
+	content: '';
+}
+
+.post-date li a {
+	color: rgb(30, 30, 30);
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.post-date li a:hover {
+	color: rgb(80, 80, 80);
+}
+
+/* Comments */
+.comments, 
+.write-comment {
+	margin-top: 100px;
+}
+
+.comments h3, 
+.write-comment h3 {
+	position: relative;
+	margin-bottom: 30px;
+	padding-left: 16px;
+}
+
+.comments h3::before, 
+.write-comment h3::before {
+	position: absolute;
+	content: '';
+	top: 5px;
+	left: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+	background: rgb(220, 220, 220);
+	width: 6px;
+	height: 6px;
+}
+
+.comments ul li {
+	padding: 30px 0;
+	border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.comments ul li:first-child {
+	padding-top: 0;
+}
+
+.comments ul li:last-child {
+	padding-bottom: 0;
+	border: none;
+}
+
+.comment-head {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.comment-head img {
+	width: 50px;
+	height: 50px;
+}
+
+.comment-head div {
+	position: absolute;
+	top: 50%;
+	left: 70px;
+}
+
+.comment-head div h4 {
+	margin-bottom: 5px;
+}
+
+.comment-head div span {
+	color: rgb(160, 160, 160);
+	font-size: 12px;
+	font-style: italic;
+}
+
+.comment-head a {
+	float: right;
+	color: rgb(160, 160, 160);
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.comment-head a:hover {
+	text-decoration: underline;
+}
+
+.comments ul li.comment-reply {
+	padding-left: 50px;
+}
+
+.comment-input {
+	float: left;
+	width: 50%;
+}
+
+.comment-input input, 
+.comment-text textarea {
+	background: rgb(245, 245, 245);
+	width: 100%;
+	padding: 20px;
+}
+
+.comment-text {
+	margin-top: 20px;
+	clear: left;
+}
+
+.comment-text textarea {
+	height: 160px;
+}
+
+.write-comment .submit-style {
+	margin-top: 30px;
+}
+
+/*-------------------------------------------------
+	14. 404 Page
+-------------------------------------------------*/
+.error-page-background {
+	position: relative;
+	top:0;
+	left:0;
+	background: url("../images/bg-img.jpg") no-repeat top center fixed;
+	width: 100%;
+	height: 100%;
+}
+
+.error-page-background .middle-content {
+	margin: 0 auto;
+	max-width: 700px;
+	text-align: center;
+}
+
+.error-page-background img {
+	width: auto;
+}
+
+.error-page-background h3 {
+	margin: 20px 0 50px 0;
+	text-align: center;
+	font-weight: 900;
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.error-page-background p {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+
+.error-page-background a {
+	margin: 15px auto 0;
+}
