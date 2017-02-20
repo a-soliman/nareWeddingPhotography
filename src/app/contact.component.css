@@ -1,0 +1,73 @@
+/*-------------------------------------------------
+	11. Contact section
+-------------------------------------------------*/
+.contact-background {
+	padding: 100px 0;
+}
+
+.contact-form, 
+.google-maps {
+	padding: 0;
+}
+
+.input-style input, 
+.text-style textarea {
+	padding: 20px 0;
+	border: none;
+	border-bottom: 1px solid rgb(220, 220, 220);
+	outline: none;
+}
+
+.input-style input, 
+.text-style textarea {
+	width: 100%;
+}
+
+.text-style textarea {
+	background: rgb(245, 245, 245);
+	height: 174px;
+	padding: 20px;
+	border-color: rgb(245, 245, 245);
+}
+
+.submit-style {
+	background: transparent;
+	display: inline-block;
+	margin-top: 30px;
+	padding: 15px 30px;
+	background: rgb(30, 30, 30);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.submit-style:hover {
+	background: rgb(50, 50, 50);
+	color: #fff;
+}
+
+#success, 
+#error {
+	display: none;
+	padding-top: 20px;
+}
+
+#success {
+	color: #419873;
+}
+
+#error {
+	color: red;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 320px;
+}
