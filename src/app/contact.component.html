@@ -1,0 +1,115 @@
+<!-- Contact section -->
+  	<section id="contact">
+  		<div class="contact-background">
+  			<div class="container">
+					<div class="contact-form">
+						<div class="section-title">
+	  					<h2>Get In Touch</h2>
+	  					<p>Always intreasted in new projects, send me an Email and I'll come back to you ASAP</p>
+	  				</div>
+	  				<!-- contact form -->
+	  				<form 
+              method="" 
+              id="contactform" 
+              #f="ngForm" 
+              (ngSubmit)="onSubmit(f.value, $event)">
+              <div class="input-style">
+	              <div>
+	                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Name"
+                    required minlength="5" ngModel #name="ngModel">
+                  <!--error message -->
+                  
+                  <div *ngIf="name.errors && (name.dirty || name.touched)"
+                       class="alert">
+                      <div [hidden]="!name.errors.required">
+                        Name is required
+                      </div>
+                      <div [hidden]="!name.errors.minlength">
+                        Name must be at least {{ name.errors.minlength.requiredLength}} characters long.
+                      </div>
+                  </div>
+                  
+                  
+	              </div>
+	              <div>
+	                <input
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="E-Mail"
+                    required ngModel #email="ngModel">
+
+                  <!--error message -->
+                  
+                  <div *ngIf="email.errors && (email.dirty || email.touched)"
+                       class="alert">
+                      <div [hidden]="!email.errors.required">
+                        Email is required
+                      </div>
+                      
+                  </div>
+	              </div>
+                <div>
+                  <input 
+                    type="text" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Phone"
+                    required minlength="10" ngModel #phone="ngModel">
+
+                  <!--error message -->
+                  
+                  <div *ngIf="phone.errors && (phone.dirty || phone.touched)"
+                       class="alert">
+                      <div [hidden]="!phone.errors.required">
+                        Name is required
+                      </div>
+                      <div [hidden]="!phone.errors.minlength">
+                        phone must be {{ phone.errors.minlength.requiredLength}} numbers.
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-style">
+                <textarea 
+                  name="message" 
+                  id="message" 
+                  placeholder="Message"
+                  required minlength="20" ngModel #message="ngModel">
+                </textarea>
+                <!--error message -->
+                  
+                  <div *ngIf="message.errors && (message.dirty || message.touched)"
+                       class="alert">
+                      <div [hidden]="!message.errors.required">
+                        Name is required
+                      </div>
+                      <div [hidden]="!message.errors.minlength">
+                        message must be {{message.errors.minlength.requiredLength }} numbers.
+                      </div>
+                  </div>
+
+                <input 
+                (click)="onSubmit(f.form, $evant)"
+                  type="submit" 
+                  id="submit" 
+                  class="submit-style" 
+                  name="submit" 
+                  value="Send Message"
+                  [disabled]="!f.valid">
+              </div>
+              <div>
+                <p
+                    *ngIf="submited">Your Message has been sent!</p>
+                <p id="error">Something went wrong, go back and try again!</p>
+              </div>
+            </form>
+	  				<!-- end contact form -->
+					</div>
+  			</div><!-- end container -->
+  		</div>
+  	<!-- end Contact section -->
