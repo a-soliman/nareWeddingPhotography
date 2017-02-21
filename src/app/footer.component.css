@@ -1,0 +1,61 @@
+/*-------------------------------------------------
+	12. Footer
+-------------------------------------------------*/
+.footer-background {
+	background: rgb(30, 30, 30);
+	padding: 60px 0;
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+}
+
+.footer-background .container div:first-child {
+	margin-bottom: 30px;
+}
+
+.footer-background p {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+/*.footer-background ul li {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.footer-background ul li:last-child {
+	margin: 0;
+}*/
+
+.footer-background ul li a {
+	display: block;
+	width: 42px;
+	height: 42px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	line-height: 38px;
+}
+
+.footer-background ul li a:hover {
+	background: #fff;
+	border-color: #fff;
+	color: rgb(30, 30, 30);
+}
+
+.social ul li a {
+	display: block;
+	width: 42px;
+	height: 42px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	line-height: 38px;
+}
+
+.social a:hover {
+	background: #fff;
+	border-color: #fff;
+	color: rgb(30, 30, 30);
+}
+
+
