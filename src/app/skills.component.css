@@ -1,0 +1,35 @@
+/*-------------------------------------------------
+	5. Skills
+-------------------------------------------------*/
+.skills {
+    margin: 100px auto;
+}
+.skills-background {
+	border: 1px solid rgb(220, 220, 220);
+	text-align: center;
+}
+
+.skill-box {
+	padding: 50px 10px;
+	color: rgb(160, 160, 160);
+	min-height: 250px;
+}
+
+.skill-box i {
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+.skill-box span {
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+.skill-box span::after {
+	content: '%';
+}
+
+.skill-box h4 {
+	margin: 15px 0 10px 0;
+}
