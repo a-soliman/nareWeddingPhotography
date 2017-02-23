@@ -1,0 +1,208 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+
+*	Table of contents:
+*	1. 	Body/Main
+*	2.	Toggle Menu
+*	3.	Home Section
+*	4.	About Section
+*	5.	Skills
+*	6.	Blog section
+*	7.	Services
+*	8.	Resume section
+*	9.	Portfolio section
+*	10. Testimonial
+*	11. Contact section
+*	12. Footer
+*	13. Blog Page
+*	14. 404 Page
+*
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+	1. Body/Main
+-------------------------------------------------*/
+html, body {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	color: rgb(80, 80, 80);
+	font: 300 14px 'Lato', sans-serif;
+	letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4 {
+	margin: 0 0 10px 0;
+	color: rgb(30, 30, 30);
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 64px;
+	letter-spacing: 4px;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 32px;
+	letter-spacing: 2px;
+	text-align: left;
+	text-transform: none;
+}
+
+h2::before {
+	position: absolute;
+	content: '';
+	top: 13px;
+	left: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+	background: rgb(220, 220, 220);
+	width: 8px;
+	height: 8px;
+}
+
+h3 {
+	font-weight: 900;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: none;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+
+p {
+	margin: 0 0 5px 0;
+	line-height: 22px;
+}
+
+a:hover, 
+a:focus {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+ul, li, .row {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+input, textarea {
+	border: none;
+	outline: none;
+}
+
+.section-title {
+	position: relative;
+	margin-bottom: 50px;
+	padding-left: 23px;
+}
+
+.section-title p {
+	margin: 0;
+	text-align: left;
+}
+
+.btn-style {
+	display: inline-block;
+	background: rgb(30, 30, 30);
+	padding: 15px 30px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.btn-style:hover, 
+.btn-style:focus {
+	background: rgb(50, 50, 50);
+	color: #fff;
+}
+
+button.mfp-close {
+	opacity: 1;
+	background: #fff;
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	color: rgb(30, 30, 30);
+}
+
+button.mfp-close:hover {
+	opacity: 0.8;
+}
+
+a, 
+button.mfp-close, 
+.owl-theme .owl-controls .owl-buttons div, 
+.customNavigation ul li, 
+.portfolio-background ul li, 
+.submit-style {
+	-webkit-transition: linear 0.1s;
+	-moz-transition: linear 0.1s;
+	-o-transition: linear 0.1s;
+	transition: linear 0.1s;
+}
+
+.blog-post-content::after, 
+.blog-post-content h3 a::after, 
+.services-background .row div, 
+.image-hover, 
+input, textarea {
+	-webkit-transition: ease-out 0.2s;
+	-moz-transition: ease-out 0.2s;
+	-o-transition: ease-out 0.2s;
+	transition: ease-out 0.2s;
+}
+
+.middle-content, 
+.client-img div, 
+.comment-head div {
+	-webkit-transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+	transform: translate(0,-50%);
+}
+
+.about-grey-content ul li a, 
+.testimonial-box img, 
+.footer-background ul li a, 
+.follow-me li a, 
+.comment-head img {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.home-background, 
+.services-background, 
+.blog-title, 
+.error-page-background {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
