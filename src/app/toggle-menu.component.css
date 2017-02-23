@@ -1,0 +1,118 @@
+/*-------------------------------------------------
+	2. Toggle Menu
+-------------------------------------------------*/
+.toggle-btn, 
+.lines::before,
+.lines::after {
+	-webkit-transition: linear 0.2s;
+	-moz-transition: linear 0.2s;
+	-o-transition: linear 0.2s;
+	transition: linear 0.2s;
+}
+
+.toggle-btn {
+	position: fixed;
+	z-index: 999;
+	top: 30px;
+	left: 30px;
+	background: #fff;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	line-height: 50px;
+	-webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.1);
+	box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.1);
+}
+
+.lines {
+	position: relative;
+	display: inline-block;
+	background: rgb(30, 30, 30);
+	width: 20px;
+	height: 2px;
+	vertical-align: middle;
+}
+
+.lines::before,
+.lines::after {
+	position: absolute;
+	content: '';
+	left: 0;
+	display: inline-block;
+	background: rgb(30, 30, 30);
+	width: 20px;
+	height: 2px;
+}
+
+.lines::before {
+	top: 5px;
+}
+
+.lines::after {
+	top: -5px;
+}
+
+.toggle-close .lines {
+	background: transparent;
+}
+
+.toggle-close .lines::before, 
+.toggle-close .lines::after {
+	top: 0;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.toggle-close .lines::before {
+	-webkit-transform: rotate3d(0, 0, 1, 45deg);
+	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.toggle-close .lines::after {
+	-webkit-transform: rotate3d(0, 0, 1, -45deg);
+	transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.menu {
+	position: fixed;
+	z-index: 999;
+	opacity: 0;
+	/*visibility: hidden;*/
+	background: #fff;
+	-webkit-transition: ease-out 0.3s;
+	-moz-transition: ease-out 0.3s;
+	-o-transition: ease-out 0.3s;
+	transition: ease-out 0.3s;
+	-webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.1);
+	box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.1);
+}
+
+.show-menu {
+	opacity: 1;
+	visibility: visible;
+}
+
+.menu .nav li {
+	padding: 0 15px;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.menu .nav li a {
+	padding: 0;
+	color: rgb(160, 160, 160);
+}
+
+.menu .nav li a:hover, 
+.menu .nav li a:focus, 
+.menu .nav li.active a {
+	background: none;
+	color: rgb(30, 30, 30);
+}
