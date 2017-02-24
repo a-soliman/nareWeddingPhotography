@@ -1,0 +1,39 @@
+/*-------------------------------------------------
+	7. Services
+-------------------------------------------------*/
+.services-background {
+	background: url("../images/services-bg.jpg") no-repeat top center fixed;
+}
+.services-background p {
+	background-color: rgba(0, 0, 0, 0.43);
+    color: white;
+    padding: 20px;
+    border-radius: 22px;
+    line-height: 40px;
+    font-size: 23px;
+}
+
+.services-background .white-layer {
+	padding: 100px 0;
+
+}
+
+.services-background .row div {
+	position: relative;
+	padding: 0 25px;
+	text-align: left;
+}
+
+.services-background .row div i {
+	/*position: absolute;
+	top: -6px;
+	right: 25px;*/
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	color: rgb(180, 180, 180);
+	font-size: 30px;
+}
+.services-background .row div h3 {
+	text-align: left;
+}
