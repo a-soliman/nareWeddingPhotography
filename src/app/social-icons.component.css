@@ -1,0 +1,22 @@
+li {
+	display: inline-block;
+	margin-right: 8px;
+	text-align: center;
+}
+li:last-child {
+	margin: 0;
+}
+a {
+	display: block;
+	width: 42px;
+	height: 42px;
+	border: 2px solid rgb(200, 200, 200);
+	color: rgb(160, 160, 160);
+	font-size: 13px;
+	line-height: 38px;
+}
+a:hover {
+	background: rgb(30, 30, 30);
+	border-color: rgb(30, 30, 30);
+	color: #fff;
+}
